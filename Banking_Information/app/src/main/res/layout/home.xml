@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#999191"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/aaaa"
+                />
+
+            <TextView
+                android:id="@+id/ATM"
+                android:layout_width="284dp"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:text="Find the nearest ATM around current position "
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/flat" />
+
+            <TextView
+                android:id="@+id/Bank"
+                android:layout_width="277dp"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:text="Find the nearest Bank's branch around current position "
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/fff"
+                />
+
+            <TextView
+                android:id="@+id/Logo"
+                android:layout_width="284dp"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:text="Find ATM/Branch/Head office of a particular Bank in a region and provided services"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/images"
+                />
+
+            <TextView
+                android:id="@+id/Prize"
+                android:layout_width="284dp"
+                android:layout_height="match_parent"
+                android:textSize="18dp"
+                android:text="Search Prizebond draw result "
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
